@@ -1,0 +1,15 @@
+body{background-color:gray;}
+.band{height:6%; width:100%; background-color:white; clear:both; margin-bottom:1%;}
+.bar{height:92%; width:20%; overflow-y:scroll; background-color:white; float:left;}
+.main{height:92%;width:79%; overflow-y:scroll; background-color:white; float:left; margin-left:1%;}
+.my_button{padding: 6px; float:left; margin-left:4px;}
+.my_button1{text-decoration: none; text-align:center; display:block; position:relative; height:20px; width:20px;}
+.my_button1:before{content:''; position:absolute;  top:2px; left:2px; height:18px; width:18px; }
+.my_button2{text-decoration: none; text-align:center; display:block; position:relative; height:20px; width:40px; color: black;}
+.my_button2:before{content:''; position:absolute;  top:2px; left:2px; height:18px; width:38px; }
+.gray{background: #eee;}
+.gray:before{border-bottom: 2px solid #b2b1b1; border-right:  2px solid #b2b1b1;}
+.my_button2:active:before,.my_button1:active:before{border:none;}
+.main1{height: 96%; width: 98%; display:block; margin: 1%; background:white;}
+.div_border{position:relative; height:90%; width:96%;  float:left;  background: white; border: 2px solid black; display:none; margin: 2%;}
+.div_border:before{content: 'POC'; position:absolute; top:-14px; left: 8px; height:20px; width:40px; background: white; text-align: center;}

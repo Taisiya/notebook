@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<title>NoteBook</title>
+<link rel=stylesheet type="text/css" href="styles.css">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<script src="js/jquery-1.4.2.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="band">
+<div class="my_button"><a href="#" class="my_button1 gray">+</a></div>
+<div class="my_button"><a href="#" class="my_button1 gray">-</a></div>
+<div class="my_button"><a href="javascript: void(0); choose(2)" class="my_button2 gray">edit</a></div>
+</div>
+
+<div class="bar">
+
+</div>
+
+<script>
+function choose(page)
+{
+switch(page)
+{
+case 1: document.getElementById('for_note').style.display="block";
+document.getElementById('for_edit').style.display="none"; break;
+case 2: document.getElementById('for_note').style.display="none";
+document.getElementById('for_edit').style.display="block"; break;
+}
+}
+</script>
+<div class="main">
+
+<div class="main1" id="for_note">
+</div>
+
+<div class="div_border" id="for_edit">
+<div class="my_button"><a href="javascript: void(0); choose(1)" class="my_button2 gray">exit</a></div>
+</div>
+
+</div>
+</body>
+
+</html>
