@@ -1,7 +1,7 @@
 body{background-color:gray;}
 .band{height:30px; width:100%; background-color:white; clear:both; margin-bottom:1%; margin-left:0%; margin-right: 0%;}
-.bar{height:92%; width:20%; overflow-y:scroll; background-color:white; float:left;}
-.main{height:92%;width:79%; overflow-y:scroll; background-color:white; float:left; margin-left:1%;}
+.bar{height:92%; width:25%; overflow-y:scroll; background-color:white; float:left;}
+.main{height:92%;width:74%; overflow-y:scroll; background-color:white; float:left; margin-left:1%;}
 .my_button{padding: 6px; float:left; margin-left:4px;}
 .my_button_r{padding: 6px; float:right; margin-right:4px;}
 .my_button1{text-decoration: none; text-align:center; display:block; position:relative; height:20px; width:20px;}
